@@ -15,6 +15,7 @@
 
     <filter>
         <whitelist>
+            <directory suffix=".php">Day*/</directory>
             <exclude>
                 <directory>vendor</directory>
             </exclude>
