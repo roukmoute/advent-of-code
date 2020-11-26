@@ -1,6 +1,6 @@
 {
-  "name": "roukmoute/Advent-of-Code",
-  "description": "Examples of \"Advent Of Code\" solutions in PHP",
+  "name": "roukmoute/advent-of-code",
+  "description": "Examples of \"Advent Of Code 2015\" solutions in PHP",
   "minimum-stability": "stable",
   "license": "MIT",
   "autoload": {
