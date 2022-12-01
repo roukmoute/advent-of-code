@@ -1,0 +1,25 @@
+{
+    "name": "roukmoute/advent-of-code-2022",
+    "description": "The 2022 Advent calendar of small programming puzzles from https://adventofcode.com",
+    "type": "project",
+    "require": {
+        "phpspec/phpspec": "^7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Roukmoute\\AdventOfCode2022\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "spec\\Roukmoute\\AdventOfCode2022\\": "spec/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathias STRASSER",
+            "email": "contact@roukmoute.fr"
+        }
+    ]
+}
