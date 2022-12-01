@@ -3,7 +3,6 @@
 namespace spec\Roukmoute\AdventOfCode2022\Day1;
 
 use PhpSpec\ObjectBehavior;
-use Roukmoute\AdventOfCode2022\Day1\Day1;
 
 class Day1Spec extends ObjectBehavior
 {
@@ -79,5 +78,26 @@ class Day1Spec extends ObjectBehavior
         $this->beConstructedWith(file_get_contents(__DIR__ . '/input.txt'));
 
         $this->totalCaloriesThatElfCarryingTheMostCalories()->shouldBe(66186);
+    }
+
+    public function it_find_the_top_three_Elves_carrying_the_most_Calories_with_simple_items()
+    {
+        $this->beConstructedWith('1
+
+2
+
+3
+
+4
+');
+
+        $this->totalCaloriesFromThreeElvesCarryingTheMostCalories()->shouldBe(9);
+    }
+
+    public function it_find_the_top_three_Elves_carrying_the_most_Calories_with_concrete_example()
+    {
+        $this->beConstructedWith(file_get_contents(__DIR__ . '/input.txt'));
+
+        $this->totalCaloriesFromThreeElvesCarryingTheMostCalories()->shouldBe(196804);
     }
 }
