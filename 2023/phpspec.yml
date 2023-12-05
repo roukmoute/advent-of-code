@@ -1,0 +1,4 @@
+suites:
+  AdventOfCode2023_suite:
+    namespace: Roukmoute\AdventOfCode2023\
+    psr4_prefix: Roukmoute\AdventOfCode2023\
